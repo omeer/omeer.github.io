@@ -5,8 +5,9 @@ html,body{
 }
 .upper{
 	height: 250px;
-	background-color: black;
 	width: 100%;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1500' height='600' preserveAspectRatio='none' viewBox='0 0 1500 600'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1103%26quot%3b)' fill='none'%3e%3crect width='1500' height='600' x='0' y='0' fill='rgba(99%2c 219%2c 170%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c39 C 75%2c81.4 225%2c253.4 375%2c251 C 525%2c248.6 600%2c32.2 750%2c27 C 900%2c21.8 975%2c220.4 1125%2c225 C 1275%2c229.6 1425%2c85 1500%2c50L1500 600L0 600z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c343 C 27.4%2c393 82.2%2c571.8 137%2c593 C 191.8%2c614.2 219.2%2c471 274%2c449 C 328.8%2c427 356.2%2c512 411%2c483 C 465.8%2c454 493.2%2c283.4 548%2c304 C 602.8%2c324.6 630.2%2c557.4 685%2c586 C 739.8%2c614.6 767.2%2c460 822%2c447 C 876.8%2c434 904.2%2c549 959%2c521 C 1013.8%2c493 1041.2%2c303.2 1096%2c307 C 1150.8%2c310.8 1178.2%2c515.8 1233%2c540 C 1287.8%2c564.2 1316.6%2c419 1370%2c428 C 1423.4%2c437 1474%2c553.6 1500%2c585L1500 600L0 600z' fill='rgba(0%2c 2%2c 1%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1103'%3e%3crect width='1500' height='600' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
 }
 .center img {
 	border:2px solid #999; 
@@ -17,15 +18,19 @@ html,body{
 	 margin-top: -200px;
 }
 .center{
-	background-color:#64B5F6;
 	height: 200px;
 	width: 100%;
+	background-color: black;
+
+
+
 }
 .footer {
 	height: 290px;
-	background-color: black;
 	width:100%;
 	position: absolute;
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1500' height='300' preserveAspectRatio='none' viewBox='0 0 1500 300'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1076%26quot%3b)' fill='none'%3e%3crect width='1500' height='300' x='0' y='0' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c67 C 75%2c70 225%2c83 375%2c82 C 525%2c81 600%2c54.8 750%2c62 C 900%2c69.2 975%2c123.8 1125%2c118 C 1275%2c112.2 1425%2c50 1500%2c33L1500 300L0 300z' fill='rgba(0%2c 0%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c273 C 50%2c255.6 150%2c184.6 250%2c186 C 350%2c187.4 400%2c281.6 500%2c280 C 600%2c278.4 650%2c186 750%2c178 C 850%2c170 900%2c234.2 1000%2c240 C 1100%2c245.8 1150%2c200.6 1250%2c207 C 1350%2c213.4 1450%2c259 1500%2c272L1500 300L0 300z' fill='rgba(99%2c 219%2c 170%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1076'%3e%3crect width='1500' height='300' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+
 }
 .footer a img {
 	margin-left: 500px;
